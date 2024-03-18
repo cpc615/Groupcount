@@ -9,22 +9,22 @@
 <body>
 <h1>Team Scoring Tool</h1>
 
-<!-- 輸入小組數量 -->
-<label for="numTeams">Number of Teams:</label>
-<input type="number" id="numTeams" min="1" placeholder="Number of Teams" />
-<button onclick="createScoreboard()">Create Teams</button>
+<!-- Input number of teams -->
+<label for="numTeams">Enter number of teams:</label>
+<input type="number" id="numTeams" min="1" placeholder="Enter number of teams" />
+<button onclick="createScoreboard()">Generate scoreboard</button>
 
-<!-- 小組計分板 -->
+<!-- Team scoreboard -->
 <div id="scoreboard">
-  <!-- 小組計分區塊將在這裡動態生成 -->
+  <!-- Team score blocks will be dynamically generated here -->
 </div>
 
-<!-- 查看排名按鈕 -->
-<button onclick="showRanking()" style="display:none;" id="rankBtn">View Rankings</button>
+<!-- View ranking button -->
+<button onclick="showRanking()" style="display:none;" id="rankBtn">View ranking</button>
 
-<!-- 排名顯示 -->
+<!-- Ranking display -->
 <div id="ranking" style="display:none;">
-  <!-- 排名將在這裡顯示 -->
+  <!-- Rankings will be displayed here -->
 </div>
 
 <script src="script.js"></script>
